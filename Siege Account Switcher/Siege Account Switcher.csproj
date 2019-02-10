@@ -103,8 +103,8 @@
     <None Include="Resources\512px-Steam_icon_logo.svg.png" />
     <None Include="Resources\DfekaqCWkAAt2X5.jpg" />
     <None Include="Resources\d9hlqg4-429ebd49-a8ef-4c4b-9787-112c00d71d99.png" />
-    <Content Include="Steam\defaultargs.dll" />
-    <Content Include="Uplay\defaultargs.dll" />
+    <Content Include="Resources\Steam\defaultargs.dll" />
+    <Content Include="Resources\Uplay\defaultargs.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
