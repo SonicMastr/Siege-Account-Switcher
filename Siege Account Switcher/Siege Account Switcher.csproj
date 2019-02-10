@@ -78,6 +78,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -95,6 +96,13 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <None Include="Resources\Rainbow_Six_Siege_28.jpg" />
+    <None Include="Resources\upc_9mfb8gtNlO.jpg" />
+    <None Include="Resources\upc_YU6FnmXNp6.jpg" />
+    <None Include="Resources\upc_hmp7FRRwd1.jpg" />
+    <None Include="Resources\512px-Steam_icon_logo.svg.png" />
+    <None Include="Resources\DfekaqCWkAAt2X5.jpg" />
+    <None Include="Resources\d9hlqg4-429ebd49-a8ef-4c4b-9787-112c00d71d99.png" />
     <Content Include="Steam\defaultargs.dll" />
     <Content Include="Uplay\defaultargs.dll" />
   </ItemGroup>

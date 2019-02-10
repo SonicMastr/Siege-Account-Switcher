@@ -28,30 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.Ucon = new System.Windows.Forms.PictureBox();
             this.Steam = new System.Windows.Forms.Button();
             this.Uplay = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.Scon = new System.Windows.Forms.PictureBox();
-            this.Siege = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.Ucon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Scon)).BeginInit();
+            this.Siege = new System.Windows.Forms.PictureBox();
+            this.Scon = new System.Windows.Forms.PictureBox();
+            this.Ucon = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.Siege)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Scon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ucon)).BeginInit();
             this.SuspendLayout();
-            // 
-            // Ucon
-            // 
-            this.Ucon.Image = ((System.Drawing.Image)(resources.GetObject("Ucon.Image")));
-            this.Ucon.Location = new System.Drawing.Point(37, 92);
-            this.Ucon.Name = "Ucon";
-            this.Ucon.Size = new System.Drawing.Size(201, 201);
-            this.Ucon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Ucon.TabIndex = 0;
-            this.Ucon.TabStop = false;
-            this.Ucon.Visible = false;
             // 
             // Steam
             // 
@@ -87,27 +75,6 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Siege Account Switcher";
             // 
-            // Scon
-            // 
-            this.Scon.Image = ((System.Drawing.Image)(resources.GetObject("Scon.Image")));
-            this.Scon.Location = new System.Drawing.Point(37, 92);
-            this.Scon.Name = "Scon";
-            this.Scon.Size = new System.Drawing.Size(201, 201);
-            this.Scon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Scon.TabIndex = 5;
-            this.Scon.TabStop = false;
-            this.Scon.Visible = false;
-            // 
-            // Siege
-            // 
-            this.Siege.Image = ((System.Drawing.Image)(resources.GetObject("Siege.Image")));
-            this.Siege.Location = new System.Drawing.Point(37, 92);
-            this.Siege.Name = "Siege";
-            this.Siege.Size = new System.Drawing.Size(201, 201);
-            this.Siege.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Siege.TabIndex = 6;
-            this.Siege.TabStop = false;
-            // 
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -127,6 +94,38 @@
             this.label3.TabIndex = 8;
             this.label3.Text = "By SonicMastr";
             // 
+            // Siege
+            // 
+            this.Siege.Image = global::Siege_Account_Switcher.Properties.Resources.d9hlqg4_429ebd49_a8ef_4c4b_9787_112c00d71d99;
+            this.Siege.Location = new System.Drawing.Point(37, 92);
+            this.Siege.Name = "Siege";
+            this.Siege.Size = new System.Drawing.Size(201, 201);
+            this.Siege.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Siege.TabIndex = 6;
+            this.Siege.TabStop = false;
+            // 
+            // Scon
+            // 
+            this.Scon.Image = global::Siege_Account_Switcher.Properties.Resources._512px_Steam_icon_logo_svg;
+            this.Scon.Location = new System.Drawing.Point(37, 92);
+            this.Scon.Name = "Scon";
+            this.Scon.Size = new System.Drawing.Size(201, 201);
+            this.Scon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Scon.TabIndex = 5;
+            this.Scon.TabStop = false;
+            this.Scon.Visible = false;
+            // 
+            // Ucon
+            // 
+            this.Ucon.Image = global::Siege_Account_Switcher.Properties.Resources.DfekaqCWkAAt2X5;
+            this.Ucon.Location = new System.Drawing.Point(37, 92);
+            this.Ucon.Name = "Ucon";
+            this.Ucon.Size = new System.Drawing.Size(201, 201);
+            this.Ucon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Ucon.TabIndex = 0;
+            this.Ucon.TabStop = false;
+            this.Ucon.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -142,9 +141,9 @@
             this.Controls.Add(this.Ucon);
             this.Name = "Form1";
             this.Text = "Siege Account Switcher";
-            ((System.ComponentModel.ISupportInitialize)(this.Ucon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Scon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Siege)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Scon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ucon)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
