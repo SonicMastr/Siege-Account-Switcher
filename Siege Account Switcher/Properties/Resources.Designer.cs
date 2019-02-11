@@ -101,6 +101,16 @@ namespace Siege_Account_Switcher.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon r6_dEL_icon {
+            get {
+                object obj = ResourceManager.GetObject("r6_dEL_icon", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Rainbow_Six_Siege_28 {

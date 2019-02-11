@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.Steam = new System.Windows.Forms.Button();
             this.Uplay = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -201,7 +202,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Uplay);
             this.Controls.Add(this.Ucon);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Siege Account Switcher";
             ((System.ComponentModel.ISupportInitialize)(this.Siege)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Scon)).EndInit();

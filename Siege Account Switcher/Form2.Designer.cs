@@ -70,14 +70,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
-            // folderBrowserDialog1
-            // 
-            resources.ApplyResources(this.folderBrowserDialog1, "folderBrowserDialog1");
-            // 
             // wizardControl1
             // 
-            resources.ApplyResources(this.wizardControl1, "wizardControl1");
             this.wizardControl1.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.wizardControl1, "wizardControl1");
             this.wizardControl1.Name = "wizardControl1";
             this.wizardControl1.Pages.Add(this.wizardPage1);
             this.wizardControl1.Pages.Add(this.wizardPage3);
@@ -89,24 +85,24 @@
             // 
             // wizardPage1
             // 
-            resources.ApplyResources(this.wizardPage1, "wizardPage1");
             this.wizardPage1.Controls.Add(this.pictureBox1);
             this.wizardPage1.Controls.Add(this.wizardPageContainer1);
             this.wizardPage1.Controls.Add(this.label1);
             this.wizardPage1.Name = "wizardPage1";
             this.wizardPage1.NextPage = this.wizardPage3;
+            resources.ApplyResources(this.wizardPage1, "wizardPage1");
             // 
             // pictureBox1
             // 
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Image = global::Siege_Account_Switcher.Properties.Resources.Rainbow_Six_Siege_28;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             // 
             // wizardPageContainer1
             // 
-            resources.ApplyResources(this.wizardPageContainer1, "wizardPageContainer1");
             this.wizardPageContainer1.BackButton = null;
+            resources.ApplyResources(this.wizardPageContainer1, "wizardPageContainer1");
             this.wizardPageContainer1.CancelButton = null;
             this.wizardPageContainer1.Name = "wizardPageContainer1";
             this.wizardPageContainer1.NextButton = null;
@@ -118,15 +114,15 @@
             // 
             // wizardPage3
             // 
-            resources.ApplyResources(this.wizardPage3, "wizardPage3");
             this.wizardPage3.Controls.Add(this.pictureBox2);
             this.wizardPage3.Controls.Add(this.label3);
             this.wizardPage3.Name = "wizardPage3";
+            resources.ApplyResources(this.wizardPage3, "wizardPage3");
             // 
             // pictureBox2
             // 
-            resources.ApplyResources(this.pictureBox2, "pictureBox2");
             this.pictureBox2.Image = global::Siege_Account_Switcher.Properties.Resources.upc_9mfb8gtNlO;
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.TabStop = false;
             // 
@@ -137,11 +133,11 @@
             // 
             // wizardPage4
             // 
-            resources.ApplyResources(this.wizardPage4, "wizardPage4");
             this.wizardPage4.Controls.Add(this.label5);
             this.wizardPage4.Controls.Add(this.label4);
             this.wizardPage4.Controls.Add(this.pictureBox3);
             this.wizardPage4.Name = "wizardPage4";
+            resources.ApplyResources(this.wizardPage4, "wizardPage4");
             // 
             // label5
             // 
@@ -155,17 +151,17 @@
             // 
             // pictureBox3
             // 
-            resources.ApplyResources(this.pictureBox3, "pictureBox3");
             this.pictureBox3.Image = global::Siege_Account_Switcher.Properties.Resources.upc_YU6FnmXNp6;
+            resources.ApplyResources(this.pictureBox3, "pictureBox3");
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.TabStop = false;
             // 
             // wizardPage5
             // 
-            resources.ApplyResources(this.wizardPage5, "wizardPage5");
             this.wizardPage5.Controls.Add(this.label6);
             this.wizardPage5.Controls.Add(this.pictureBox4);
             this.wizardPage5.Name = "wizardPage5";
+            resources.ApplyResources(this.wizardPage5, "wizardPage5");
             // 
             // label6
             // 
@@ -174,20 +170,20 @@
             // 
             // pictureBox4
             // 
-            resources.ApplyResources(this.pictureBox4, "pictureBox4");
             this.pictureBox4.Image = global::Siege_Account_Switcher.Properties.Resources.upc_hmp7FRRwd1;
+            resources.ApplyResources(this.pictureBox4, "pictureBox4");
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.TabStop = false;
             // 
             // wizardPage2
             // 
-            resources.ApplyResources(this.wizardPage2, "wizardPage2");
             this.wizardPage2.AllowNext = false;
             this.wizardPage2.Controls.Add(this.label2);
             this.wizardPage2.Controls.Add(this.warning);
             this.wizardPage2.Controls.Add(this.Folder);
             this.wizardPage2.Controls.Add(this.Folder_Select);
             this.wizardPage2.Name = "wizardPage2";
+            resources.ApplyResources(this.wizardPage2, "wizardPage2");
             // 
             // label2
             // 
@@ -213,7 +209,6 @@
             // 
             // wizardPage6
             // 
-            resources.ApplyResources(this.wizardPage6, "wizardPage6");
             this.wizardPage6.AllowCancel = false;
             this.wizardPage6.Controls.Add(this.pictureBox6);
             this.wizardPage6.Controls.Add(this.pictureBox5);
@@ -221,18 +216,19 @@
             this.wizardPage6.IsFinishPage = true;
             this.wizardPage6.Name = "wizardPage6";
             this.wizardPage6.ShowCancel = false;
+            resources.ApplyResources(this.wizardPage6, "wizardPage6");
             // 
             // pictureBox6
             // 
-            resources.ApplyResources(this.pictureBox6, "pictureBox6");
             this.pictureBox6.Image = global::Siege_Account_Switcher.Properties.Resources._512px_Steam_icon_logo_svg;
+            resources.ApplyResources(this.pictureBox6, "pictureBox6");
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.TabStop = false;
             // 
             // pictureBox5
             // 
-            resources.ApplyResources(this.pictureBox5, "pictureBox5");
             this.pictureBox5.Image = global::Siege_Account_Switcher.Properties.Resources.DfekaqCWkAAt2X5;
+            resources.ApplyResources(this.pictureBox5, "pictureBox5");
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.TabStop = false;
             // 
