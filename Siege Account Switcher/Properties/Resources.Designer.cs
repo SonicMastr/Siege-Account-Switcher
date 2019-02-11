@@ -91,12 +91,42 @@ namespace Siege_Account_Switcher.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon Favicon {
+            get {
+                object obj = ResourceManager.GetObject("Favicon", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Rainbow_Six_Siege_28 {
             get {
                 object obj = ResourceManager.GetObject("Rainbow_Six_Siege_28", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] sdefaultargs {
+            get {
+                object obj = ResourceManager.GetObject("sdefaultargs", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] udefaultargs {
+            get {
+                object obj = ResourceManager.GetObject("udefaultargs", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         

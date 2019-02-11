@@ -117,35 +117,56 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="DfekaqCWkAAt2X5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DfekaqCWkAAt2X5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="wizardControl1.Text" xml:space="preserve">
+    <value>Setup</value>
   </data>
-  <data name="upc_9mfb8gtNlO" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\upc_9mfb8gtNlO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="wizardControl1.TitleIcon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAACMuAAAjLgAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsAAABJAAAAbgAAAG0AAABBAAAADwAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACsAAADvAAAA/wAAAP8AAAD/AAAA/wAAAPQAAAAbAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACVAAAA/wAAAK4AAAAqAAAA/wAAAP8AAAD/AAAAwwAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqgAAAP8AAAC0AAAAIwAAAP8AAAD/AAAA/wAA
+        ANkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKoAAAD/AAAAtQAAABMAAADxAAAA/wAA
+        AP8AAADZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACqAAAA/wAAALUAAAAQAAAA5gAA
+        AP8AAAD/AAAA2QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqgAAAP8AAAC1AAAAAAAA
+        AAYAAABDAAAA3AAAANkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKoAAAD/AAAAzAAA
+        AEoAAACYAAAALwAAANgAAADZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACqAAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA2gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqgAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAKMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AKoAAAD/AAAA/wAAAIcAAAB/AAAAhwAAADoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAACqAAAA/wAAAP8AAABqAAAATQAAAL8AAADDAAAAqQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAqgAAAP8AAAD/AAAAcQAAAHMAAAD/AAAA/wAAANkAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAIoAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAC/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAjAAAA6wAAAP8AAAD/AAAA/wAAAP8AAAD7AAAAIgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAABIAAAAbwAAAHEAAABJAAAAFQAAAAAAAAAAAAAAAAAA
+        AAAAAAAA+B8AAPAPAADwDwAA8A8AAPAPAADwDwAA8Q8AAPAPAADwDwAA8A8AAPAfAADwDwAA8A8AAPAP
+        AADwDwAA+B8AAA==
+</value>
   </data>
-  <data name="Rainbow_Six_Siege_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Rainbow_Six_Siege_28.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="upc_YU6FnmXNp6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\upc_YU6FnmXNp6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="512px-Steam_icon_logo.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\512px-Steam_icon_logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="upc_hmp7FRRwd1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\upc_hmp7FRRwd1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="d9hlqg4-429ebd49-a8ef-4c4b-9787-112c00d71d99" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\d9hlqg4-429ebd49-a8ef-4c4b-9787-112c00d71d99.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Favicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Favicon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sdefaultargs" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sdefaultargs.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="udefaultargs" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\udefaultargs.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAACMuAAAjLgAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsAAABJAAAAbgAAAG0AAABBAAAADwAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACsAAADvAAAA/wAAAP8AAAD/AAAA/wAAAPQAAAAbAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACVAAAA/wAAAK4AAAAqAAAA/wAAAP8AAAD/AAAAwwAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqgAAAP8AAAC0AAAAIwAAAP8AAAD/AAAA/wAA
+        ANkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKoAAAD/AAAAtQAAABMAAADxAAAA/wAA
+        AP8AAADZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACqAAAA/wAAALUAAAAQAAAA5gAA
+        AP8AAAD/AAAA2QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqgAAAP8AAAC1AAAAAAAA
+        AAYAAABDAAAA3AAAANkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKoAAAD/AAAAzAAA
+        AEoAAACYAAAALwAAANgAAADZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACqAAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA2gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqgAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAKMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AKoAAAD/AAAA/wAAAIcAAAB/AAAAhwAAADoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAACqAAAA/wAAAP8AAABqAAAATQAAAL8AAADDAAAAqQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAqgAAAP8AAAD/AAAAcQAAAHMAAAD/AAAA/wAAANkAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAIoAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAC/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAjAAAA6wAAAP8AAAD/AAAA/wAAAP8AAAD7AAAAIgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAABIAAAAbwAAAHEAAABJAAAAFQAAAAAAAAAAAAAAAAAA
+        AAAAAAAA+B8AAPAPAADwDwAA8A8AAPAPAADwDwAA8Q8AAPAPAADwDwAA8A8AAPAfAADwDwAA8A8AAPAP
+        AADwDwAA+B8AAA==
+</value>
   </data>
 </root>
