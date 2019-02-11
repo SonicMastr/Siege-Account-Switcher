@@ -8,12 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
+using System.IO;
 
 namespace Siege_Account_Switcher
 {
     public partial class Form1 : Form
     {
-
+        string WD = Properties.Settings.Default.Directory;
         public Form1()
         {
             InitializeComponent();
@@ -23,6 +24,10 @@ namespace Siege_Account_Switcher
                 this.Hide();
                 Form2 f2 = new Form2();
                 f2.ShowDialog();
+            }
+            else if (WD == null)
+            {
+                MessageBox.Show("There isn't a set game directory \r\n I recommend removing the user.config file from the %appdata%/local/Siege-Account-Switcher directory and restarting.");
             }
         }
 
@@ -38,7 +43,7 @@ namespace Siege_Account_Switcher
             {
                 process.Kill();
             }
-            MessageBox.Show("Uplay");
+            File.WriteAllBytes(WD + "defaultargs.dll", Properties.Resources.udefaultargs);
         }
 
         private void Steam_Click(object sender, EventArgs e)
@@ -53,7 +58,6 @@ namespace Siege_Account_Switcher
             {
                 process.Kill();
             }
-            MessageBox.Show("Steam");
         }
 
         private void Uplay_MouseEnter(object sender, EventArgs e)
