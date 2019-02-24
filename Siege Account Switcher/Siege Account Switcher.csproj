@@ -146,6 +146,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="r6_dEL_icon.ico" />
+    <None Include="Resources\udefaultargs.dll" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\Rainbow_Six_Siege_28.jpg" />
@@ -158,9 +159,6 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\sdefaultargs.dll" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Resources\udefaultargs.dll" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\ico.bmp" />
@@ -186,22 +184,22 @@
   <ItemGroup>
     <PublishFile Include="dje\Siege Account Switcher.resources">
       <Visible>False</Visible>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
       <Group>
       </Group>
       <TargetPath>
       </TargetPath>
-      <PublishState>Exclude</PublishState>
-      <IncludeHash>True</IncludeHash>
       <FileType>Satellite</FileType>
     </PublishFile>
     <PublishFile Include="en-US\Siege Account Switcher.resources">
       <Visible>False</Visible>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
       <Group>
       </Group>
       <TargetPath>
       </TargetPath>
-      <PublishState>Exclude</PublishState>
-      <IncludeHash>True</IncludeHash>
       <FileType>Satellite</FileType>
     </PublishFile>
   </ItemGroup>

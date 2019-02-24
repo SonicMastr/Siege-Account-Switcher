@@ -48,6 +48,7 @@ namespace Siege_Account_Switcher
                 process.Kill();
             }
             siegec.Visible = true;
+            System.Threading.Thread.Sleep(500);
             //Copies Uplay DLL to Steam Folder
             File.WriteAllBytes(WD + "/defaultargs.dll", Properties.Resources.udefaultargs);
             done.Visible = true;
@@ -93,6 +94,7 @@ namespace Siege_Account_Switcher
                 process.Kill();
             }
             siegec.Visible = true;
+            System.Threading.Thread.Sleep(500);
             //Copies Steam DLL to Steam Folder
             File.WriteAllBytes(WD + "/defaultargs.dll", Properties.Resources.sdefaultargs);
             done.Visible = true;
