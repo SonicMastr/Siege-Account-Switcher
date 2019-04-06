@@ -129,7 +129,9 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
-    <None Include="Properties\app.manifest" />
+    <None Include="Properties\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -146,6 +148,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="r6_dEL_icon.ico" />
+    <None Include="Resources\upc_sgcQl0Rdl9.jpg" />
+    <None Include="Resources\Discord_NcswGMcT20.jpg" />
+    <None Include="Resources\upc_kj4OgtqnTI.jpg" />
     <None Include="Resources\udefaultargs.dll" />
   </ItemGroup>
   <ItemGroup>
@@ -184,22 +189,22 @@
   <ItemGroup>
     <PublishFile Include="dje\Siege Account Switcher.resources">
       <Visible>False</Visible>
-      <PublishState>Exclude</PublishState>
-      <IncludeHash>True</IncludeHash>
       <Group>
       </Group>
       <TargetPath>
       </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
       <FileType>Satellite</FileType>
     </PublishFile>
     <PublishFile Include="en-US\Siege Account Switcher.resources">
       <Visible>False</Visible>
-      <PublishState>Exclude</PublishState>
-      <IncludeHash>True</IncludeHash>
       <Group>
       </Group>
       <TargetPath>
       </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
       <FileType>Satellite</FileType>
     </PublishFile>
   </ItemGroup>

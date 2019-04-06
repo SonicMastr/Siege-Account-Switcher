@@ -91,6 +91,16 @@ namespace Siege_Account_Switcher.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Discord_NcswGMcT20 {
+            get {
+                object obj = ResourceManager.GetObject("Discord_NcswGMcT20", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
         internal static System.Drawing.Icon Favicon {
@@ -156,6 +166,26 @@ namespace Siege_Account_Switcher.Properties {
         internal static System.Drawing.Bitmap upc_hmp7FRRwd1 {
             get {
                 object obj = ResourceManager.GetObject("upc_hmp7FRRwd1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap upc_kj4OgtqnTI {
+            get {
+                object obj = ResourceManager.GetObject("upc_kj4OgtqnTI", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap upc_sgcQl0Rdl9 {
+            get {
+                object obj = ResourceManager.GetObject("upc_sgcQl0Rdl9", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

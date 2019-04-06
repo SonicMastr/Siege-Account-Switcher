@@ -118,37 +118,46 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="DfekaqCWkAAt2X5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DfekaqCWkAAt2X5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Discord_NcswGMcT20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Discord_NcswGMcT20.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="upc_9mfb8gtNlO" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\upc_9mfb8gtNlO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Rainbow_Six_Siege_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Rainbow_Six_Siege_28.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="upc_YU6FnmXNp6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\upc_YU6FnmXNp6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="512px-Steam_icon_logo.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\512px-Steam_icon_logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="upc_hmp7FRRwd1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\upc_hmp7FRRwd1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="upc_kj4OgtqnTI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\upc_kj4OgtqnTI.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="d9hlqg4-429ebd49-a8ef-4c4b-9787-112c00d71d99" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\d9hlqg4-429ebd49-a8ef-4c4b-9787-112c00d71d99.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Favicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Favicon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="udefaultargs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\udefaultargs.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="512px-Steam_icon_logo.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\512px-Steam_icon_logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rainbow_Six_Siege_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rainbow_Six_Siege_28.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sdefaultargs" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sdefaultargs.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="upc_YU6FnmXNp6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\upc_YU6FnmXNp6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="upc_hmp7FRRwd1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\upc_hmp7FRRwd1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DfekaqCWkAAt2X5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DfekaqCWkAAt2X5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Favicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Favicon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="r6_dEL_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\r6_dEL_icon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="udefaultargs" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\udefaultargs.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="upc_sgcQl0Rdl9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\upc_sgcQl0Rdl9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

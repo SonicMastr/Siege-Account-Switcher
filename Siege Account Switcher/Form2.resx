@@ -302,20 +302,45 @@ The options should look like the ones in the provided photo.
   <data name="&gt;&gt;wizardPage1.Type" xml:space="preserve">
     <value>AeroWizard.WizardPage, AeroWizard, Version=2.2.2.0, Culture=neutral, PublicKeyToken=915e74f5d64b8f37</value>
   </data>
+  <data name="pictureBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 127</value>
+  </data>
+  <data name="pictureBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>324, 175</value>
+  </data>
+  <data name="pictureBox7.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox7.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox7.Name" xml:space="preserve">
+    <value>pictureBox7</value>
+  </data>
+  <data name="&gt;&gt;pictureBox7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox7.Parent" xml:space="preserve">
+    <value>wizardPage4</value>
+  </data>
+  <data name="&gt;&gt;pictureBox7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="label5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 243</value>
+    <value>15, 210</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>455, 15</value>
+    <value>282, 30</value>
   </data>
   <data name="label5.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>C:/Program Files (x86)/Steam/steamapps/common/Tom Clancy's Rainbow Six Siege/</value>
+    <value>C:/Program Files (x86)/Steam/steamapps/common/
+Tom Clancy's Rainbow Six Siege/</value>
   </data>
   <data name="&gt;&gt;label5.Name" xml:space="preserve">
     <value>label5</value>
@@ -327,13 +352,13 @@ The options should look like the ones in the provided photo.
     <value>wizardPage4</value>
   </data>
   <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 30</value>
+    <value>14, 12</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>276, 273</value>
@@ -342,12 +367,13 @@ The options should look like the ones in the provided photo.
     <value>1</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>After uninstalling the Uplay Version, you will see a little "Locate installed game" option under download. Click on that and navigate to your Steam Version's Installation.
+    <value>After uninstalling the Uplay Version, click download. Then when asked for the installation directory navigate to your Steam Version's Installation.
 
 
 
 
 For me that folder was 
+
 
 This may be different for you.</value>
   </data>
@@ -361,13 +387,13 @@ This may be different for you.</value>
     <value>wizardPage4</value>
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="pictureBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>296, 81</value>
+    <value>385, 12</value>
   </data>
   <data name="pictureBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>367, 143</value>
+    <value>255, 109</value>
   </data>
   <data name="pictureBox3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -385,7 +411,7 @@ This may be different for you.</value>
     <value>wizardPage4</value>
   </data>
   <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="wizardPage4.Size" type="System.Drawing.Size, System.Drawing">
     <value>666, 316</value>
@@ -415,7 +441,7 @@ This may be different for you.</value>
     <value>1</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>If you did the last step correctly, you should see that Uplay will start verifying files. Wait until this process is done and let it download the few files that it needs to run. (This may take a while depending on your hard drive or SSD speeds)
+    <value>If you did the last step correctly, you should see that Uplay will start discovering files. Wait until this process is done and let it download the few files that it needs to run. (This may take a while depending on your hard drive or SSD speeds)
 
 In the meantime, you can continue to the next step.</value>
   </data>

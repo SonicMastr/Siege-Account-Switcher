@@ -39,6 +39,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.wizardPage4 = new AeroWizard.WizardPage();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -61,6 +62,7 @@
             this.wizardPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.wizardPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.wizardPage5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -133,11 +135,19 @@
             // 
             // wizardPage4
             // 
+            this.wizardPage4.Controls.Add(this.pictureBox7);
             this.wizardPage4.Controls.Add(this.label5);
             this.wizardPage4.Controls.Add(this.label4);
             this.wizardPage4.Controls.Add(this.pictureBox3);
             this.wizardPage4.Name = "wizardPage4";
             resources.ApplyResources(this.wizardPage4, "wizardPage4");
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::Siege_Account_Switcher.Properties.Resources.upc_sgcQl0Rdl9;
+            resources.ApplyResources(this.pictureBox7, "pictureBox7");
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.TabStop = false;
             // 
             // label5
             // 
@@ -151,7 +161,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::Siege_Account_Switcher.Properties.Resources.upc_YU6FnmXNp6;
+            this.pictureBox3.Image = global::Siege_Account_Switcher.Properties.Resources.upc_kj4OgtqnTI;
             resources.ApplyResources(this.pictureBox3, "pictureBox3");
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.TabStop = false;
@@ -170,7 +180,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::Siege_Account_Switcher.Properties.Resources.upc_hmp7FRRwd1;
+            this.pictureBox4.Image = global::Siege_Account_Switcher.Properties.Resources.Discord_NcswGMcT20;
             resources.ApplyResources(this.pictureBox4, "pictureBox4");
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.TabStop = false;
@@ -254,6 +264,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.wizardPage4.ResumeLayout(false);
             this.wizardPage4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.wizardPage5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -292,5 +303,6 @@
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.PictureBox pictureBox7;
     }
 }

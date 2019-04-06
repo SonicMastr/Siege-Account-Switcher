@@ -47,14 +47,5 @@ namespace Siege_Account_Switcher
             }
         }
 
-        private void wizardPage1_Commit(object sender, AeroWizard.WizardPageConfirmEventArgs e)
-        {
-
-        }
-
-        private void wizardPage3_Commit(object sender, AeroWizard.WizardPageConfirmEventArgs e)
-        {
-
-        }
     }
 }
