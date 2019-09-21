@@ -17,7 +17,7 @@ One File... No joke.
 
 
 
-Simply Put, this application replaces that one file with either the Steam or Uplay version of it, automatically starting Steam if running the Steam version, or just Uplay for the Uplay version. This also completely eliminates the need to install the game twice, so you save 80-130GB of space, and if you log into your Uplay version's account manually, you never have to login again! It's pretty great. Just click and Play.
+Simply Put, this application replaces that one file with either the Steam or Uplay version of it, automatically starting Steam if running the Steam version, or just Uplay for the Uplay version. This also completely eliminates the need to install the game twice, so you save 70-110GB of space, and if you log into your Uplay version's account manually, you never have to login again! It's pretty great. Just click and Play.
 
 
 
