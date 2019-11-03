@@ -127,24 +127,36 @@ namespace Siege_Account_Switcher
         //Hover over Uplay Button
         private void Uplay_MouseEnter(object sender, EventArgs e)
         {
-            Scon.Visible = false;
-            Ucon.Visible = true;
-            Siege.Visible = false;
+            Uplay.BackColor = Color.FromArgb(50, 35, 251, 255);
         }
+
+        private void Uplay_MouseLeave(object sender, EventArgs e)
+        {
+            Uplay.BackColor = Color.Transparent;
+        }
+
         //Hover over Steam Button
         private void Steam_MouseEnter(object sender, EventArgs e)
         {
-            Scon.Visible = true;
-            Ucon.Visible = false;
-            Siege.Visible = false;
+            Steam.BackColor = Color.FromArgb(50, 35, 251, 255);
         }
+
+        private void Steam_MouseLeave(object sender, EventArgs e)
+        {
+            Steam.BackColor = Color.Transparent;
+        }
+
         //To Restart installation to fix wrong Game Folder
         private void Reset_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            this.Hide();
-            Form2 f2 = new Form2();
-            f2.ShowDialog();
+            folderBrowserDialog1.SelectedPath = WD;
+            folderBrowserDialog1.ShowNewFolderButton = false;
+            if (folderBrowserDialog1.ShowDialog() == DialogResult.OK) {
+                Properties.Settings.Default.Directory = folderBrowserDialog1.SelectedPath;
+                Properties.Settings.Default.Save();
+                WD = Properties.Settings.Default.Directory;
+            }
+            MessageBox.Show("New Directory:\r\n\n" + WD, "Changed Directory", MessageBoxButtons.OK);
         }
-
     }
 }

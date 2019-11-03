@@ -8,11 +8,12 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>Siege_Account_Switcher</RootNamespace>
     <AssemblyName>Siege Account Switcher</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
     <PublishUrl>C:\Users\jaylo\Desktop\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -148,10 +149,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="r6_dEL_icon.ico" />
+    <EmbeddedResource Include="Resources\R6S_Year_4_Keyart_ENG.jpg" />
     <None Include="Resources\upc_sgcQl0Rdl9.jpg" />
-    <None Include="Resources\Discord_NcswGMcT20.jpg" />
+    <EmbeddedResource Include="Resources\Discord_NcswGMcT20.jpg" />
     <None Include="Resources\upc_kj4OgtqnTI.jpg" />
-    <None Include="Resources\udefaultargs.dll" />
+    <EmbeddedResource Include="Resources\udefaultargs.dll" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\Rainbow_Six_Siege_28.jpg" />
