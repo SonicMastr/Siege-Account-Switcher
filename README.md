@@ -1,5 +1,5 @@
 # Siege-Account-Switcher
-A simple GUI application for the Siege Account Switcher
+A simple GUI application for the Legacy Siege Account Switcher
 
 ## What is this?
 I spent the entire day making a simple application that allows you to instantly switch between the Uplay And Steam Versions of Siege if you were unlucky enough to buy it from both platforms like me. And if you had to do that, you also probably got pretty bummed out when you had to install the game TWICE to play on both of your accounts.
