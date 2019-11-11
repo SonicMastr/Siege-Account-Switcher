@@ -1,4 +1,4 @@
-# Siege-Account-Switcher-GUI
+# Siege-Account-Switcher
 A simple GUI application for the Siege Account Switcher
 
 ## What is this?
