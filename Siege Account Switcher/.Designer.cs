@@ -138,7 +138,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label4.Location = new System.Drawing.Point(546, 454);
+            this.label4.Location = new System.Drawing.Point(567, 454);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(148, 13);
             this.label4.TabIndex = 12;
@@ -149,12 +149,12 @@
             this.Reset.AutoSize = true;
             this.Reset.BackColor = System.Drawing.Color.Transparent;
             this.Reset.LinkColor = System.Drawing.Color.White;
-            this.Reset.Location = new System.Drawing.Point(700, 454);
+            this.Reset.Location = new System.Drawing.Point(721, 454);
             this.Reset.Name = "Reset";
-            this.Reset.Size = new System.Drawing.Size(130, 13);
+            this.Reset.Size = new System.Drawing.Size(117, 13);
             this.Reset.TabIndex = 13;
             this.Reset.TabStop = true;
-            this.Reset.Text = "Click here to Setup Again.";
+            this.Reset.Text = "Click here to Change it.";
             this.Reset.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Reset_LinkClicked);
             // 
             // Form1

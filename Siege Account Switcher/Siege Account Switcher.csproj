@@ -49,6 +49,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>r6_dEL_icon.ico</ApplicationIcon>
@@ -149,11 +150,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="r6_dEL_icon.ico" />
+    <EmbeddedResource Include="Resources\udefaultargs.dll" />
+    <EmbeddedResource Include="Resources\sdefaultargs.dll" />
     <EmbeddedResource Include="Resources\R6S_Year_4_Keyart_ENG.jpg" />
     <None Include="Resources\upc_sgcQl0Rdl9.jpg" />
     <EmbeddedResource Include="Resources\Discord_NcswGMcT20.jpg" />
     <None Include="Resources\upc_kj4OgtqnTI.jpg" />
-    <EmbeddedResource Include="Resources\udefaultargs.dll" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\Rainbow_Six_Siege_28.jpg" />
@@ -163,9 +165,6 @@
     <EmbeddedResource Include="Resources\512px-Steam_icon_logo.svg.png" />
     <EmbeddedResource Include="Resources\DfekaqCWkAAt2X5.jpg" />
     <EmbeddedResource Include="Resources\d9hlqg4-429ebd49-a8ef-4c4b-9787-112c00d71d99.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Resources\sdefaultargs.dll" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\ico.bmp" />
