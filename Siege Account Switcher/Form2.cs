@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Siege_Account_Switcher
 {
@@ -30,6 +31,16 @@ namespace Siege_Account_Switcher
                 Properties.Settings.Default.Setup = 1;
                 Properties.Settings.Default.Save();
             }
+            if (wizardControl1.SelectedPage == wizardPage5)
+            {
+                wizardPage5.NextPage = wizardPage6;
+            }
+            if (wizardControl1.SelectedPage == wizardPage3)
+            {
+                Properties.Settings.Default.Save();
+                string WD = Properties.Settings.Default.Directory;
+                File.WriteAllBytes(WD + "/defaultargs.dll", Properties.Resources.udefaultargs);
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -43,6 +54,7 @@ namespace Siege_Account_Switcher
                 Folder.Text = fileDialog.SelectedPath;
                 warning.Visible = true;
                 Properties.Settings.Default.Directory = fileDialog.SelectedPath;
+                wizardPage2.NextPage = wizardPage3;
                 wizardPage2.AllowNext = true;
             }
         }

@@ -17,6 +17,7 @@ namespace Siege_Account_Switcher
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            MessageBoxManager.Register();
             AppDomain.CurrentDomain.AssemblyResolve += (Object sender, ResolveEventArgs args) =>
             {
                 String thisExe = System.Reflection.Assembly.GetExecutingAssembly().GetName().Name;

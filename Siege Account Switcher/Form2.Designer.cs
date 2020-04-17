@@ -35,6 +35,11 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.wizardPageContainer1 = new AeroWizard.WizardPageContainer();
             this.label1 = new System.Windows.Forms.Label();
+            this.wizardPage2 = new AeroWizard.WizardPage();
+            this.label2 = new System.Windows.Forms.Label();
+            this.warning = new System.Windows.Forms.Label();
+            this.Folder = new System.Windows.Forms.Label();
+            this.Folder_Select = new System.Windows.Forms.Button();
             this.wizardPage3 = new AeroWizard.WizardPage();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -46,11 +51,6 @@
             this.wizardPage5 = new AeroWizard.WizardPage();
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.wizardPage2 = new AeroWizard.WizardPage();
-            this.label2 = new System.Windows.Forms.Label();
-            this.warning = new System.Windows.Forms.Label();
-            this.Folder = new System.Windows.Forms.Label();
-            this.Folder_Select = new System.Windows.Forms.Button();
             this.wizardPage6 = new AeroWizard.WizardPage();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -59,6 +59,7 @@
             this.wizardPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.wizardPageContainer1)).BeginInit();
+            this.wizardPage2.SuspendLayout();
             this.wizardPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.wizardPage4.SuspendLayout();
@@ -66,7 +67,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.wizardPage5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.wizardPage2.SuspendLayout();
             this.wizardPage6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -91,7 +91,7 @@
             this.wizardPage1.Controls.Add(this.wizardPageContainer1);
             this.wizardPage1.Controls.Add(this.label1);
             this.wizardPage1.Name = "wizardPage1";
-            this.wizardPage1.NextPage = this.wizardPage3;
+            this.wizardPage1.NextPage = this.wizardPage2;
             resources.ApplyResources(this.wizardPage1, "wizardPage1");
             // 
             // pictureBox1
@@ -113,6 +113,38 @@
             // 
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
+            // 
+            // wizardPage2
+            // 
+            this.wizardPage2.AllowNext = false;
+            this.wizardPage2.Controls.Add(this.label2);
+            this.wizardPage2.Controls.Add(this.warning);
+            this.wizardPage2.Controls.Add(this.Folder);
+            this.wizardPage2.Controls.Add(this.Folder_Select);
+            this.wizardPage2.Name = "wizardPage2";
+            resources.ApplyResources(this.wizardPage2, "wizardPage2");
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            // 
+            // warning
+            // 
+            resources.ApplyResources(this.warning, "warning");
+            this.warning.Name = "warning";
+            // 
+            // Folder
+            // 
+            resources.ApplyResources(this.Folder, "Folder");
+            this.Folder.Name = "Folder";
+            // 
+            // Folder_Select
+            // 
+            resources.ApplyResources(this.Folder_Select, "Folder_Select");
+            this.Folder_Select.Name = "Folder_Select";
+            this.Folder_Select.UseVisualStyleBackColor = true;
+            this.Folder_Select.Click += new System.EventHandler(this.button1_Click);
             // 
             // wizardPage3
             // 
@@ -185,38 +217,6 @@
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.TabStop = false;
             // 
-            // wizardPage2
-            // 
-            this.wizardPage2.AllowNext = false;
-            this.wizardPage2.Controls.Add(this.label2);
-            this.wizardPage2.Controls.Add(this.warning);
-            this.wizardPage2.Controls.Add(this.Folder);
-            this.wizardPage2.Controls.Add(this.Folder_Select);
-            this.wizardPage2.Name = "wizardPage2";
-            resources.ApplyResources(this.wizardPage2, "wizardPage2");
-            // 
-            // label2
-            // 
-            resources.ApplyResources(this.label2, "label2");
-            this.label2.Name = "label2";
-            // 
-            // warning
-            // 
-            resources.ApplyResources(this.warning, "warning");
-            this.warning.Name = "warning";
-            // 
-            // Folder
-            // 
-            resources.ApplyResources(this.Folder, "Folder");
-            this.Folder.Name = "Folder";
-            // 
-            // Folder_Select
-            // 
-            resources.ApplyResources(this.Folder_Select, "Folder_Select");
-            this.Folder_Select.Name = "Folder_Select";
-            this.Folder_Select.UseVisualStyleBackColor = true;
-            this.Folder_Select.Click += new System.EventHandler(this.button1_Click);
-            // 
             // wizardPage6
             // 
             this.wizardPage6.AllowCancel = false;
@@ -259,6 +259,8 @@
             this.wizardPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.wizardPageContainer1)).EndInit();
+            this.wizardPage2.ResumeLayout(false);
+            this.wizardPage2.PerformLayout();
             this.wizardPage3.ResumeLayout(false);
             this.wizardPage3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -268,8 +270,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.wizardPage5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.wizardPage2.ResumeLayout(false);
-            this.wizardPage2.PerformLayout();
             this.wizardPage6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
