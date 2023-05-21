@@ -109,7 +109,7 @@ namespace Siege_Account_Switcher
                 try
                 {
                     //Start Siege and then Exit
-                    Process.Start(WD + "/RainbowSix.exe");
+                    Process.Start("steam://rungameid/359550"); 
                     Application.Exit();
                 }
 
@@ -130,7 +130,7 @@ namespace Siege_Account_Switcher
                 try
                 {
                     //Start Siege and then Exit
-                    Process.Start(WD + "/RainbowSix_Vulkan.exe");
+                    Process.Start("steam://rungameid/359550// -Vulkan"); 
                     Application.Exit();
                 }
 
