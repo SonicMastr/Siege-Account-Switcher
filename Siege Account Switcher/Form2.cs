@@ -46,7 +46,7 @@ namespace Siege_Account_Switcher
         private void button1_Click(object sender, EventArgs e)
         {
             fileDialog.RootFolder = Environment.SpecialFolder.Desktop;
-            fileDialog.Description = "Select the Location of your Rainbow Six Siege Steam Installation Folder";
+            fileDialog.Description = "选择R6 Steam版本的安装路径";
             fileDialog.ShowNewFolderButton = false;
 
             if (fileDialog.ShowDialog() == DialogResult.OK)

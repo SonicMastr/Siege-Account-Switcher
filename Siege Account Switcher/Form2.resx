@@ -196,9 +196,9 @@
     <value>1</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>This program allows users of both the Steam and Uplay Versions of Rainbow Six Siege to seamlessly switch between both accounts without having to install the game twice. This gives players the ability to save 80-130GB of storage that is occupied by a second installation.
+    <value>这个app允许你无缝切换Steam和Uplay版本的和不同账号下的R6，且你只需安装游戏一遍。这可以帮你省下80-130GB的空间，以及再次安装的时间。
 
-To start installation to make account switching a two-click process, click next.
+开始初始化，请点击继续。
 
 
 </value>
@@ -228,9 +228,9 @@ To start installation to make account switching a two-click process, click next.
     <value>1</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>This allows the application to know where to copy the correct files to the correct place on your computer. If this is wrong, then you'll be stuck with the Uplay Version. 
+    <value>这可以让这个app知道从哪里复制正确的文件。如果这一步错了，你将会被卡在Uplay版本。 
 
-Make sure you use the same location that you used for locating the game in Uplay.
+你在Uplay里面设定这个游戏的路径的时候，确保使用同一个文件夹。
 
 </value>
   </data>
@@ -262,7 +262,7 @@ Make sure you use the same location that you used for locating the game in Uplay
     <value>1</value>
   </data>
   <data name="warning.Text" xml:space="preserve">
-    <value>Make sure this is the right location!</value>
+    <value>确保这是正确的路径！例如：...\Steam\steamapps\common\Tom Clancy's Rainbow Six Siege</value>
   </data>
   <data name="warning.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -289,7 +289,7 @@ Make sure you use the same location that you used for locating the game in Uplay
     <value>2</value>
   </data>
   <data name="Folder.Text" xml:space="preserve">
-    <value>Select Folder</value>
+    <value>请选择</value>
   </data>
   <data name="Folder.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -316,7 +316,7 @@ Make sure you use the same location that you used for locating the game in Uplay
     <value>1</value>
   </data>
   <data name="Folder_Select.Text" xml:space="preserve">
-    <value>Game Folder</value>
+    <value>游戏文件夹</value>
   </data>
   <data name="&gt;&gt;Folder_Select.Name" xml:space="preserve">
     <value>Folder_Select</value>
@@ -337,7 +337,7 @@ Make sure you use the same location that you used for locating the game in Uplay
     <value>1</value>
   </data>
   <data name="wizardPage2.Text" xml:space="preserve">
-    <value>Select Your Steam Game Installation Folder</value>
+    <value>选择R6 Steam版本的安装路径</value>
   </data>
   <data name="&gt;&gt;wizardPage2.Name" xml:space="preserve">
     <value>wizardPage2</value>
@@ -400,9 +400,10 @@ Make sure you use the same location that you used for locating the game in Uplay
     <value>1</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>In Uplay, navigate to Rainbow Six Siege &gt; Properties &gt; Local Files and click Uninstall.
+    <value>在Uplay里面, 找到Rainbow Six Siege &gt; Properties（中文应该是属性） &gt; 
+Local Files（应该是本地文件）然后点击卸载。
 
-The options should look like the ones in the provided photo.
+应该和图片里的一样。
 </value>
   </data>
   <data name="&gt;&gt;label3.Name" xml:space="preserve">
@@ -424,7 +425,7 @@ The options should look like the ones in the provided photo.
     <value>2</value>
   </data>
   <data name="wizardPage3.Text" xml:space="preserve">
-    <value>Delete the Uplay Version of your Game.</value>
+    <value>删掉Uplay版本</value>
   </data>
   <data name="&gt;&gt;wizardPage3.Name" xml:space="preserve">
     <value>wizardPage3</value>
@@ -497,15 +498,14 @@ Tom Clancy's Rainbow Six Siege/</value>
     <value>1</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>After uninstalling the Uplay Version, click download. Then when asked for the installation directory navigate to your Steam Version's Installation.
+    <value>卸载Uplay版本以后，点击下载。问你下载路径的时候就填Steam版本的。
 
 
 
 
-For me that folder was 
+我的是 
 
-
-This may be different for you.</value>
+你的可能不一样</value>
   </data>
   <data name="&gt;&gt;label4.Name" xml:space="preserve">
     <value>label4</value>
@@ -550,7 +550,7 @@ This may be different for you.</value>
     <value>3</value>
   </data>
   <data name="wizardPage4.Text" xml:space="preserve">
-    <value>Locate installed game in Uplay</value>
+    <value>重新在Uplay里定位游戏</value>
   </data>
   <data name="&gt;&gt;wizardPage4.Name" xml:space="preserve">
     <value>wizardPage4</value>
@@ -571,7 +571,7 @@ This may be different for you.</value>
     <value>1</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>If you did the last step correctly, you should see that Uplay will start discovering files. Wait until this process is done and let it download the few files that it needs to run. (This may take a while depending on your hard drive or SSD speeds)</value>
+    <value>如果你做得对，Uplay会开始discovering files（应该是发现文件或者寻找文件，我没看切成中文看，私密马赛）。等它discover完，可能会再下载一少部分游戏文件。</value>
   </data>
   <data name="&gt;&gt;label6.Name" xml:space="preserve">
     <value>label6</value>
@@ -616,7 +616,7 @@ This may be different for you.</value>
     <value>4</value>
   </data>
   <data name="wizardPage5.Text" xml:space="preserve">
-    <value>Wait for Uplay to Detect all Files and Install Its Prerequisites</value>
+    <value>等待Uplay发现所有文件并且下载需要的文件</value>
   </data>
   <data name="&gt;&gt;wizardPage5.Name" xml:space="preserve">
     <value>wizardPage5</value>
@@ -685,11 +685,11 @@ This may be different for you.</value>
     <value>1</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Now the app is all setup!
+    <value>完成了。
 
-From now on when you launch this app, you'll be able to simply select which version you want to play. 
+以后你再打开这个app，可以选择Uplay或者Steam版本游玩了。 
 
-Have fun with that extra space!</value>
+请您享受多余的空间</value>
   </data>
   <data name="&gt;&gt;label7.Name" xml:space="preserve">
     <value>label7</value>
@@ -710,7 +710,7 @@ Have fun with that extra space!</value>
     <value>5</value>
   </data>
   <data name="wizardPage6.Text" xml:space="preserve">
-    <value>We're all Setup!</value>
+    <value>完成了</value>
   </data>
   <data name="&gt;&gt;wizardPage6.Name" xml:space="preserve">
     <value>wizardPage6</value>
@@ -5795,7 +5795,7 @@ Have fun with that extra space!</value>
     <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Siege Account Switcher Setup</value>
+    <value>Siege Account Switcher 设置</value>
   </data>
   <data name="&gt;&gt;folderBrowserDialog1.Name" xml:space="preserve">
     <value>folderBrowserDialog1</value>

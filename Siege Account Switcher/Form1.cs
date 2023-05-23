@@ -31,7 +31,7 @@ namespace Siege_Account_Switcher
             //Just incase something screws up. Most likely this will never run.
             else if (WD == null)
             {
-                MessageBox.Show("There isn't a set game directory \r\n I recommend removing the user.config file from the %appdata%/local/Siege-Account-Switcher directory and restarting.");
+                MessageBox.Show("你还没有设置游戏路径。 \r\n 请手动删除%appdata%/local/Siege-Account-Switcher路径下的user.config文件并重新打开。");
             }
         }
 
@@ -45,7 +45,7 @@ namespace Siege_Account_Switcher
             MessageBoxManager.Yes = "DX11";
             MessageBoxManager.No = "Vulkan";
             MessageBoxManager.Cancel = "Close";
-            DialogResult dRu = MessageBox.Show("Rainbow Six Siege is now the Uplay Version!\r\n\r\nDo you want to use DirectX 11 or Vulkan?", "Uplay", MessageBoxButtons.YesNoCancel);
+            DialogResult dRu = MessageBox.Show("现在是Uplay版本！\r\n\r\n你想用DirectX11还是Vulkan启动？", "Uplay", MessageBoxButtons.YesNoCancel);
             if (dRu == DialogResult.Yes)    
             {
                 //Start DX11
@@ -59,7 +59,7 @@ namespace Siege_Account_Switcher
                 //If Siege can't start
                 catch (Exception)
                 {
-                    DialogResult eresult = MessageBox.Show("An error Occured. Did you set the correct directory?","Error Starting Siege", MessageBoxButtons.OK);
+                    DialogResult eresult = MessageBox.Show("出错了。你确认游戏文件夹是正确的吗？","错误", MessageBoxButtons.OK);
                     if (eresult == DialogResult.OK)
                     {
                         Application.Exit();
@@ -80,7 +80,7 @@ namespace Siege_Account_Switcher
                 //If Siege can't start
                 catch (Exception)
                 {
-                    DialogResult eresult = MessageBox.Show("An error Occured. Did you set the correct directory?", "Error Starting Siege", MessageBoxButtons.OK);
+                    DialogResult eresult = MessageBox.Show("出错了。你确认游戏文件夹是正确的吗？", "错误", MessageBoxButtons.OK);
                     if (eresult == DialogResult.OK)
                     {
                         Application.Exit();
@@ -102,7 +102,7 @@ namespace Siege_Account_Switcher
             MessageBoxManager.Yes = "DX11";
             MessageBoxManager.No = "Vulkan";
             MessageBoxManager.Cancel = "Close";
-            DialogResult dR = MessageBox.Show("Rainbow Six Siege is now the Steam Version!\r\n\r\nDo you want to use DirectX 11 or Vulkan?", "Steam", MessageBoxButtons.YesNoCancel);
+            DialogResult dR = MessageBox.Show("现在是Steam版本！\r\n\r\n你想用DirectX11还是Vulkan启动？", "Steam", MessageBoxButtons.YesNoCancel);
             if (dR == DialogResult.Yes)
             {
                 //Start DX11

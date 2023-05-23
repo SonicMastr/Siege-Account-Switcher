@@ -142,7 +142,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(148, 13);
             this.label4.TabIndex = 12;
-            this.label4.Text = "Set the Wrong Game Folder? ";
+            this.label4.Text = "文件夹选错了？";
             // 
             // Reset
             // 
@@ -154,7 +154,7 @@
             this.Reset.Size = new System.Drawing.Size(117, 13);
             this.Reset.TabIndex = 13;
             this.Reset.TabStop = true;
-            this.Reset.Text = "Click here to Change it.";
+            this.Reset.Text = "更改";
             this.Reset.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Reset_LinkClicked);
             // 
             // Form1
